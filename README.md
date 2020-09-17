@@ -1,2 +1,2 @@
 # money-manager
-In this app, you can follow your expenditures.
+With this app, you can follow your expenditures.
