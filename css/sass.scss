@@ -17,18 +17,15 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 
 /* -------------------- HEADER -------------------- */
 
->>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 .header-wrap {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 200;
 }
 
 header {
@@ -41,10 +38,6 @@ header {
     align-items: center;
     justify-content: space-between;
     color: white;
-<<<<<<< HEAD
-    
-    .cart-logo {
-=======
     transition: .5s;
 
     .header-logo img {
@@ -52,18 +45,14 @@ header {
     }
     
     .cart-icon {
->>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
         cursor: pointer;
         transition: .4s;
     }
 
-<<<<<<< HEAD
-    .cart-logo:hover {
+    .cart-icon:hover {
         color: $brand-color;
     }
-}
 
-=======
     .cart-icon:hover {
         color: $brand-color;
     }
@@ -71,6 +60,7 @@ header {
     .cart-icon-color {
         color: black;
     }
+
 }
 
 .header-scroll-effect {
@@ -83,7 +73,6 @@ header {
 /* -------------------- COVER -------------------- */
 
 
->>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 .cover {
     background: url("../img/cover-bg.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -93,6 +82,12 @@ header {
     margin: 0 auto;
     border: 20px solid white;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
 }
 
 .cover:after {
@@ -105,9 +100,34 @@ header {
     background: rgba(0, 0, 0, 0.4);
 }
 
+.cover-content {
+    z-index: 100;
+}
 
-<<<<<<< HEAD
-=======
+.cover h1 {
+    font-family: 'Playball', cursive;
+    font-size: 2.6em;
+}
+
+.cover-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+}
+
+.cover-text p {
+    margin: 0 20px;
+}
+
+.left-line, .right-line {
+    width: 75px;
+    height: 1px;
+    background: $brand-color;
+}
+
+
 /* -------------------- CONTENT -------------------- */
 
 .content {
@@ -115,7 +135,6 @@ header {
 }
 
 
->>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 @media (max-width: 768px) {
     
     header {

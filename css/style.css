@@ -13,16 +13,13 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 /* -------------------- HEADER -------------------- */
->>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 .header-wrap {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 200;
 }
 
 header {
@@ -35,17 +32,6 @@ header {
   align-items: center;
   justify-content: space-between;
   color: white;
-<<<<<<< HEAD
-}
-header .cart-logo {
-  cursor: pointer;
-  transition: 0.4s;
-}
-header .cart-logo:hover {
-  color: #C59D5F;
-}
-
-=======
   transition: 0.5s;
 }
 header .header-logo img {
@@ -54,6 +40,9 @@ header .header-logo img {
 header .cart-icon {
   cursor: pointer;
   transition: 0.4s;
+}
+header .cart-icon:hover {
+  color: #C59D5F;
 }
 header .cart-icon:hover {
   color: #C59D5F;
@@ -69,7 +58,6 @@ header .cart-icon-color {
 }
 
 /* -------------------- COVER -------------------- */
->>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 .cover {
   background: url("../img/cover-bg.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -79,6 +67,12 @@ header .cart-icon-color {
   margin: 0 auto;
   border: 20px solid white;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
 }
 
 .cover:after {
@@ -91,14 +85,38 @@ header .cart-icon-color {
   background: rgba(0, 0, 0, 0.4);
 }
 
-<<<<<<< HEAD
-=======
+.cover-content {
+  z-index: 100;
+}
+
+.cover h1 {
+  font-family: "Playball", cursive;
+  font-size: 2.6em;
+}
+
+.cover-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+}
+
+.cover-text p {
+  margin: 0 20px;
+}
+
+.left-line, .right-line {
+  width: 75px;
+  height: 1px;
+  background: #C59D5F;
+}
+
 /* -------------------- CONTENT -------------------- */
 .content {
   height: 1000px;
 }
 
->>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 @media (max-width: 768px) {
   header {
     height: 150px;
