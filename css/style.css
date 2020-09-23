@@ -13,6 +13,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+/* -------------------- HEADER -------------------- */
+>>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 .header-wrap {
   position: fixed;
   top: 0;
@@ -31,6 +35,7 @@ header {
   align-items: center;
   justify-content: space-between;
   color: white;
+<<<<<<< HEAD
 }
 header .cart-logo {
   cursor: pointer;
@@ -40,6 +45,31 @@ header .cart-logo:hover {
   color: #C59D5F;
 }
 
+=======
+  transition: 0.5s;
+}
+header .header-logo img {
+  width: 150px;
+}
+header .cart-icon {
+  cursor: pointer;
+  transition: 0.4s;
+}
+header .cart-icon:hover {
+  color: #C59D5F;
+}
+header .cart-icon-color {
+  color: black;
+}
+
+.header-scroll-effect {
+  background-color: white;
+  height: 100px;
+  box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.75);
+}
+
+/* -------------------- COVER -------------------- */
+>>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 .cover {
   background: url("../img/cover-bg.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -61,6 +91,14 @@ header .cart-logo:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 
+<<<<<<< HEAD
+=======
+/* -------------------- CONTENT -------------------- */
+.content {
+  height: 1000px;
+}
+
+>>>>>>> 8cbeaa44f87d0ff7bd4ada5ca967012d59b18d46
 @media (max-width: 768px) {
   header {
     height: 150px;
