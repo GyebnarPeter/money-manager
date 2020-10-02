@@ -128,11 +128,39 @@ header {
 }
 
 
-/* -------------------- CONTENT -------------------- */
+/* -------------------- PRODUCT -------------------- */
 
-.content {
-    height: 1000px;
+main {
+    width: 100%;
+    margin: 50px 0;
 }
+
+.product {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        'product-box product-box product-box'
+        'product-box product-box product-box';
+    grid-gap: 20px;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        margin: 0;
+    }
+}
+
 
 
 @media (max-width: 768px) {
